@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/o126345/public_html
+    - export DEPLOYPATH=/home/o126345/public_html/obyedov.website
     - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
